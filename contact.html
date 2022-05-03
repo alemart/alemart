@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Contact Alexandre</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+        <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-image: url('background.jpg'); /* https://unsplash.com/photos/GLf7bAwCdYg */
+            /*background-color: #7a89fe;*/
+            background-color: #7a90c4;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+        }
+
+        body, input, button {
+            font-family: 'Roboto', Helvetica, sans-serif;
+        }
+
+        #container {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            background-color: white;
+            padding: 32px;
+            width: 80vw;
+            box-shadow: 8px 8px 20px rgba(0,0,0,0.25);
+        }
+
+        main {
+            color: #616488;
+        }
+
+        a, a:hover, a:active, a:visited {
+            color: #616488;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        input, textarea {
+            color: #000;
+        }
+
+        label {
+            display: none;
+        }
+
+        input, textarea {
+            display: block;
+            width: 100%;
+        }
+
+        input {
+            box-sizing: border-box;
+            border: 0;
+            border-bottom: 1px solid #c9cad6;
+            padding: 8px 0;
+            margin: 8px 0;
+        }
+
+        textarea {
+            border: 1px solid #c9cad6;
+            resize: none;
+            margin: 16px 0;
+        }
+
+        button {
+            padding: 16px;
+            font-size: 1.2em;
+            border: 0;
+            background: #d3d4e0;
+            font-weight: bold;
+            color: #616488;
+        }
+
+        button:hover {
+            background: #c9cad6;
+            cursor: pointer;
+        }
+
+        button:active {
+            background: #b4b5c0;
+        }
+        </style>
+        <script>
+        window.addEventListener('load', function() {
+            const form = document.getElementById('form');
+            const done = document.getElementById('done');
+            const success = (location.search.substr(1) == 'success=1');
+
+            done.hidden = !(form.hidden = success);
+
+            document.querySelector('input[type=email]').addEventListener('focus', function() {
+                const accessKey = document.querySelector('input[name="accessKey"]');
+                const redirectTo = document.querySelector('input[name="redirectTo"]');
+
+                redirectTo.value = location.href.replace(/\?.*$/, '') + '?success=1';
+                accessKey.value = ( '042affd1-dfcc-466c-81a3-b6ce5addee7c' );
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <main>
+                <header>
+                    <h1>Contact Alexandre</h1>
+                </header>
+                <section id="form">
+                    <p>I'll get back to you as soon as possible.</p>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <input type="hidden" name="accessKey" value="">
+                        <input type="hidden" name="redirectTo" value="">
+                        <input type="hidden" name="subject" value="Contact Alexandre">
+                        <input type="hidden" name="replyTo" value="@">
+
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" placeholder="Your name" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" placeholder="Your e-mail" required>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" rows="15">Hi alex,</textarea>
+
+                        <button type="submit">Submit</button>
+                        <input type="text" name="honeypot" style="display:none">
+                    </form>
+                </section>
+                <section id="done" hidden>
+                    <p>Thank you for your message! I'll get back to you as soon as possible.</p>
+                    <p><a href="index.html">Go back</a>.</p>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
