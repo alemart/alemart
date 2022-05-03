@@ -10,11 +10,11 @@
         <style>
         html, body {
             height: 100%;
+            min-height: 512px;
         }
 
         body {
             background-image: url('background.jpg'); /* https://unsplash.com/photos/GLf7bAwCdYg */
-            /*background-color: #7a89fe;*/
             background-color: #7a90c4;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -57,10 +57,6 @@
 
         input, textarea {
             color: #000;
-        }
-
-        label {
-            display: none;
         }
 
         input, textarea {
@@ -115,6 +111,17 @@
                 redirectTo.value = location.href.replace(/\?.*$/, '') + '?success=1';
                 accessKey.value = ( '042affd1-dfcc-466c-81a3-b6ce5addee7c' );
             });
+
+            document.querySelector('form').addEventListener('submit', function(ev) {
+                const fields = document.querySelectorAll('.required-field');
+
+                if([ ...fields ].find(field => field.value.trim() == '')) {
+                    ev.preventDefault();
+                    alert(`Please fill in the form.`);
+                }
+            });
+
+            document.querySelector('textarea').value += '\n\n';
         });
         </script>
     </head>
@@ -132,17 +139,12 @@
                         <input type="hidden" name="subject" value="Contact Alexandre">
                         <input type="hidden" name="replyTo" value="@">
 
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="text" name="name" placeholder="Your name" class="required-field">
+                        <input type="email" name="email" placeholder="Your e-mail" class="required-field">
+                        <textarea name="message" rows="15" class="required-field">Hi alex,</textarea>
 
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" placeholder="Your e-mail" required>
-
-                        <label for="message">Message:</label>
-                        <textarea name="message" rows="15">Hi alex,</textarea>
-
-                        <button type="submit">Submit</button>
                         <input type="text" name="honeypot" style="display:none">
+                        <button type="submit">Submit</button>
                     </form>
                 </section>
                 <section id="done" hidden>
