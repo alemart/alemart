@@ -2,4 +2,4 @@
 
 :octocat: [Support my work](https://github.com/sponsors/alemart)
 
-:mailbox: [Contact me](https://alemart.github.io/alemart/contact.html)
+:mailbox: alemartf at Google's email service dot com
