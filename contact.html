@@ -12,7 +12,7 @@
   window.addEventListener('load', function() {
     var a = document.body.querySelector('a');
     var b = [0x6d, 0x61, 0x69, 0x6c, 0x74, 0x6f, 0x3a, 0x61, 0x6c, 0x65, 0x6d, 0x61, 0x72, 0x74, 0x66, 0x40, 0x67, 0x6d, 0x61, 0x69, 0x6c, 0x2e, 0x63, 0x6f, 0x6d];
-    var c = b.map(k => String.fromCharCode(k)).join('') + '?subject=' + encodeURIComponent('Hi, alex!');
+    var c = b.map(k => String.fromCharCode(k)).join('') + '?body=' + encodeURIComponent('Hi, alex!');
 
     a.addEventListener('click', function() { location.href = c; });
   });
