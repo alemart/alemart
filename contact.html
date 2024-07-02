@@ -5,7 +5,8 @@
   <title>Contact alex</title>
   <style>
   body { font-family: sans-serif; }
-  b { display: none; }
+  a b { display: none; }
+  p { font-size: 4vw; }
   </style>
   <script>
   window.addEventListener('load', function() {
@@ -13,11 +14,11 @@
     var b = [0x6d, 0x61, 0x69, 0x6c, 0x74, 0x6f, 0x3a, 0x61, 0x6c, 0x65, 0x6d, 0x61, 0x72, 0x74, 0x66, 0x40, 0x67, 0x6d, 0x61, 0x69, 0x6c, 0x2e, 0x63, 0x6f, 0x6d];
     var c = b.map(k => String.fromCharCode(k)).join('') + '?subject=' + encodeURIComponent('Hi, alex!');
 
-    location.href = a.href = c;
+    a.addEventListener('click', function() { location.href = c; });
   });
   </script>
 </head>
 <body>
-  <p>Contact alex at <a href="#"><span>&#x61;</span><span>&#x6c;</span><span>&#x65;</span><b>x</b><span>&#x6d;</span><span>&#x61;</span><span>&#x72;</span><b>k</b><b>&#x65;</b><span>&#x74;</span><b>&#x69;</b><b>n</b><span><b>g4</b>&#x66;</span><span>&#x40;</span><span>&#x67;</span><b>&#x6f;</b><b>&#x6f;</b><b>&#x66;</b><b>y</b><span>&#x6d;</span><span>&#x61;</span><span>&#x69;</span><span>&#x6c;</span><span>&#x2e;</span><span>&#x63;</span><span>&#x6f;</span><span>&#x6d;</span></a></p>
+  <p>Contact alex at <a href="#"><span>&#x61;</span><span>&#x6c;</span><span>&#x65;</span><b>&#x78;</b><span>&#x6d;</span><span>&#x61;</span><span>&#x72;</span><b>&#x6b;</b><b>&#x65;</b><span>&#x74;</span><b>&#x69;</b><b>&#x6e;</b><span><b>&#x67;</b>&#x66;</span><b>&#x78;</b><span>&#x40;</span><span>&#x67;</span><b>&#x6f;</b><b>&#x6f;</b><b>&#x66;</b><b>&#x79;</b><span>&#x6d;</span><span>&#x61;</span><span>&#x69;</span><span>&#x6c;</span><span>&#x2e;</span><span>&#x63;</span><span>&#x6f;</span><span>&#x6d;</span></a></p>
 </body>
 </html>
