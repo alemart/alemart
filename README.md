@@ -1,4 +1,6 @@
-## Hi there 👋
+#### Hi! 👋 I'm Alex, a developer from Brazil
+
+📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%2C%20alex%0A%0A)
 
 <!--
 **alemart/alemart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
