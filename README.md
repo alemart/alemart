@@ -1,5 +1,7 @@
 #### Hi! 👋 I'm Alex, a developer from Brazil
 
+I create interactive software
+
 📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%2C%20alex%0A%0A)
 
 <!--
