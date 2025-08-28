@@ -1,6 +1,6 @@
 #### Hi! 👋 I'm Alex, a developer from Brazil
 
-I create interactive software
+I create interactive software. I also [teach gamedev](https://youtube.com/alemart88) online.
 
 📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%2C%20alex%0A%0A)
 
