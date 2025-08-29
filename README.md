@@ -1,8 +1,8 @@
-#### Hi! 👋 I'm Alex, a developer from Brazil
+#### Hi! 👋 I'm Alex, a computer wizard 🧙‍♂️ from Brazil
 
-I create interactive software. I also [teach gamedev](https://youtube.com/alemart88) online.
+I create magic software. I also [teach gamedev](https://youtube.com/alemart88) online.
 
-📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%2C%20alex%0A%0A)
+📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%20alex%0A%0A)
 
 <!--
 **alemart/alemart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
