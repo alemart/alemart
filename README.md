@@ -1,8 +1,6 @@
 #### Hi! 👋 I am Alex!
 
-I am a [certified computer wizard](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) 🧙‍♂️ from Brazil.
-
-I create interactive software and [teach gamedev](https://youtube.com/alemart88).
+I am a [certified computer wizard](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) 🧙‍♂️ from Brazil. I do magic and [teach](https://youtube.com/alemart88).
 
 📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%20alex%0A%0A)
 
