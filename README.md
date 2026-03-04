@@ -1,8 +1,8 @@
 #### Hi! 👋 I am Alex!
 
-I am a [certified computer wizard](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) 🧙‍♂️ from Brazil. I do magic and [teach](https://youtube.com/alemart88).
+🧙‍♂️ [Computer wizardry](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) is my craft; I also [teach](https://youtube.com/alemart88) aspiring wizards.
 
-📫 Contact me at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%20alex%0A%0A)
+📫 Contact me for freelance work at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%20alex%0A%0A)
 
 <!--
 **alemart/alemart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
