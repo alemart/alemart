@@ -1,6 +1,6 @@
 #### Hi! 👋 I am Alex!
 
-🧙‍♂️ [Computer wizardry](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) is my craft; I also [teach](https://youtube.com/alemart88) aspiring wizards.
+🧙‍♂️ [Computer wizardry](https://github.com/user-attachments/assets/087947ac-1152-47da-9fa6-ae2d793c7e2a) is my craft; I also [teach](https://youtube.com/alemart88) online.
 
 📫 Contact me for freelance work at [alemartf@gmail.com](mailto:alemartf@gmail.com?body=Hi%20alex%0A%0A)
 
