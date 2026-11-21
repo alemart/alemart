@@ -4,6 +4,10 @@ I'm a software engineer from Brazil 🇧🇷
 
 📫 Contact me at <alemartf@gmail.com>
 
+While you're here, scan the QR code with your phone, then scan the picture to play a quick game 😄
+
+<img alt="Basketball game" src="https://github.com/user-attachments/assets/b4c301b9-5e63-4e26-879e-6b86f4a7f2af" />
+
 <!--
 **alemart/alemart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
